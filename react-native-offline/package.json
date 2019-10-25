@@ -1,0 +1,118 @@
+{
+  "_from": "react-native-offline@^4.3.1",
+  "_id": "react-native-offline@4.3.1",
+  "_inBundle": false,
+  "_integrity": "sha512-kcsbWhT2xVh4vJP5nB/vsqGyI5zOK1ZY7Lusag7rYhdY7ZMmJNObAJ9zciNLKTl1aYd5iXE/lYBHTzZog5ZNpA==",
+  "_location": "/react-native-offline",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "react-native-offline@^4.3.1",
+    "name": "react-native-offline",
+    "escapedName": "react-native-offline",
+    "rawSpec": "^4.3.1",
+    "saveSpec": null,
+    "fetchSpec": "^4.3.1"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-offline/-/react-native-offline-4.3.1.tgz",
+  "_shasum": "8f2c0e524c0c51df76590414ee51f14a4a2b9840",
+  "_spec": "react-native-offline@^4.3.1",
+  "_where": "/Users/umang.loriya/yac-mobile",
+  "author": {
+    "name": "Raul Gomez Acuña",
+    "email": "raulgdeveloper@gmail.com",
+    "url": "https://github.com/rgommezz"
+  },
+  "bugs": {
+    "url": "https://github.com/rgommezz/react-native-offline/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "lodash": "^4.17.11",
+    "react-redux": "^6.0.0",
+    "redux": "4.x",
+    "redux-saga": "^1.0.2"
+  },
+  "deprecated": false,
+  "description": "Handy toolbelt to deal with offline mode in React Native applications. Cross-platform, provides a smooth redux integration.",
+  "devDependencies": {
+    "all-contributors-cli": "^5.4.0",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^23.6.0",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "babel-preset-react-native": "^4.0.1",
+    "coveralls": "^2.13.1",
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.7.1",
+    "eslint": "^5.11.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-flowtype": "^3.2.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-react": "^7.11.1",
+    "flow-bin": "^0.89.0",
+    "husky": "^0.14.3",
+    "jest": "^23.6.0",
+    "jest-enzyme": "^7.0.1",
+    "jsdom": "^13.1.0",
+    "prettier": "^1.15.3",
+    "prop-types": "^15.6.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "react-native": "^0.57.8",
+    "react-native-testing-library": "^1.5.0",
+    "react-test-renderer": "^16.6.3",
+    "redux": "^4.0.1",
+    "redux-mock-store": "^1.5.3",
+    "redux-saga-test-plan": "4.0.0-beta.2",
+    "redux-thunk": "^2.3.0"
+  },
+  "files": [
+    "src"
+  ],
+  "homepage": "https://github.com/rgommezz/react-native-offline#readme",
+  "jest": {
+    "collectCoverage": true,
+    "preset": "react-native",
+    "setupTestFrameworkScriptFile": "<rootDir>/test/setupTestEnv.js",
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    },
+    "modulePathIgnorePatterns": [
+      "<rootDir>/example/"
+    ]
+  },
+  "keywords": [
+    "react-native",
+    "react",
+    "offline",
+    "offline-first",
+    "redux"
+  ],
+  "license": "MIT",
+  "main": "./src/index.js",
+  "name": "react-native-offline",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rgommezz/react-native-offline.git"
+  },
+  "scripts": {
+    "contributors:add": "all-contributors add",
+    "contributors:generate": "all-contributors generate",
+    "flow": "flow src",
+    "format": "eslint --fix js/**/",
+    "lint": "eslint src",
+    "precommit": "yarn run lint",
+    "prettier": "prettier --single-quote --trailing-comma all --write \"src/**/*.js\"",
+    "test": "jest test",
+    "test:coverage": "node --harmony node_modules/.bin/jest --coverage && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
+  },
+  "version": "4.3.1"
+}
